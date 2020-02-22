@@ -1,5 +1,9 @@
+body {
+    background-color: wheat;
+}
+
 .jumbotron {
-    background-image: url("/assets/img/background.jpg");
+    background-color: tomato;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -7,16 +11,17 @@
 }
 
 .jumbotron > h1 {
-    font-family: 'Creepster', cursive;
+    font-family: sans-serif;
+    
 }
 
 #newburger {
     border-radius: 5px;
 }
 
-#color-override {
+/* #color-override {
     color: #fff;
-}
+} */
 
 #lefthead {
     background-color: #5cb85c;
